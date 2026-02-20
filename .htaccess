@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+  <FilesMatch "\.png$">
+    Header set Cross-Origin-Resource-Policy "cross-origin"
+  </FilesMatch>
+</IfModule>
